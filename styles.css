@@ -1,0 +1,117 @@
+header, section, footer, aside, nav, article, figure, figcaption
+{
+    display: block;
+}
+
+body
+{
+    font-size: 20px;
+    font-family: cursive;
+    background-image: url("background_2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header
+{
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1, h2
+{
+    text-align: center;
+}
+
+h2
+{
+    color: #FA7FE8;
+}
+
+h1
+{
+    color: #F932DA;
+}
+
+a
+{
+    text-decoration: none;
+    color: #F93295;
+}
+
+a:visited
+{
+    color: #FF4278;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #E44BC1;
+}
+
+section
+{
+    float: left;
+    width: 80%;
+    border-right: 1px solid #eeeeee;
+    padding: 1%;
+    margin-left: 1%;
+}
+
+aside
+{
+    float: left;
+    width: 15%;
+    margin-left: 1%;
+    position: fixed;
+    top: 300px;
+    left: 83%;
+}
+
+#question
+{
+    float: left;
+}
+
+#first
+{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#gamification
+{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+td, th
+{
+    border: 1px solid #E81B47;
+    padding: 10px;
+    margin: 10px;   
+}
+
+table
+{
+    margin: auto;
+}
+
+blockquote
+{
+    font-style: italic;
+}
+
+figure
+{
+    text-align: center;
+}
+
+img
+{
+    border-radius: 10px;
+}
